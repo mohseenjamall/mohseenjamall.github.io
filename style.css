@@ -1,0 +1,40 @@
+body {
+    background-color: #111111; /* خلفية سوداء */
+    color: white; /* لون النص أبيض */
+    font-family: Arial, sans-serif; /* خط بسيط ومقروء */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: white; /* لون العناوين أبيض */
+}
+
+ul {
+    list-style: none; /* إزالة النقط من القوائم */
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0; /* مسافة بين العناصر */
+}
+
+a {
+    color: white; /* الروابط باللون الأبيض */
+    text-decoration: none; /* إزالة التسطير من الروابط */
+}
+
+a:hover {
+    text-decoration: underline; /* عند التمرير على الروابط يظهر التسطير */
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
